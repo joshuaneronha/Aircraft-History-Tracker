@@ -121,3 +121,5 @@ filename = "/public_html/resources/current_locations.json"
 
 with open("current_locations.json", "rb") as upfile:
     ftp_server.storbinary(f"STOR {filename}", upfile)
+
+currently_flying
