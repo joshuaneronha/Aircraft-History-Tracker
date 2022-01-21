@@ -22,8 +22,9 @@ lon_space = np.linspace(lon_left, lon_right, 64)
 
 color = ['#000000','#000000','#000000']
 
-def generate_image(base_map, array, state):
+def generate_image(base_map, indiv_base_map, array, state):
     im = Image.open(base_map)
+    indiv_ims = []
     draw = ImageDraw.Draw(im)
 
     for i in array:
@@ -61,6 +62,11 @@ def generate_image(base_map, array, state):
 
         # draw.point((current_y_point,current_x_point))
         # draw.rectangle([current_y_point,current_x_point,current_y_point + 1,current_x_point + 1],fill=color[state])
+
+
+
+
+
 
     return im
 
@@ -113,7 +119,7 @@ two_str = base64.b64encode(buffered.getvalue()).decode()
 
 json_rep = pd.DataFrame(currently_flying,columns=['reg','iata_code','dep_iata','arr_iata','model','lat','lng']).to_json(orient='index')
 
-pd.DataFrame(currently_flying,columns=['reg','iata_code','dep_iata','model','arr_iata','lat','lng']).sort_values(by='lng')
+pd.DataFrame(currently_flying,columns=['reg','iata_code','dep_iata','arr_iata','model','lat','lng']).sort_values(by='lng')
 
 data_dict = {'flights': json_, 'frame_one': zero_str, 'frame_two': one_str, 'frame_three': two_str}
 
