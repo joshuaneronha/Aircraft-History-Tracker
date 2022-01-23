@@ -2,8 +2,14 @@
 <h3>Joshua Neronha, January 2021</h3>
 <br>
 <center>
-<img src="render/display.webp" height = 100></img>
-<img src="render/display_beta.webp" height = 100></img>
+<div class="row">
+  <div class="column">
+    <img src="render/display.webp" height = 100></img>
+  </div>
+  <div class="column">
+    <img src="render/display_beta.webp" height = 100></img>
+  </div>
+</div>
 </center>
 <h2>Purpose</h2>
 <p>People who like flying too much (like me) often keep track of the tail numbers of the aircraft they fly on. But while I've recorded this data for a while now, I've never really known what to do with it. None of the flight tracking websites I use (PlaneFinder, FlightAware, etc.) allow you to see a map of current aircraft locations from a list of tail numbers. So when I received my <a href="https://tidbyt.com">Tidbyt</a> (a small, programmable 64 x 32 LED display), I set out to create a small application that would show me where all the aircraft I've previously flown currently are and what routes they are on. This project is based off my other project, the <a href="https://github.com/joshuaneronha/Tidbyt-Flight-Tracker">airport departure tracker</a>; it has different goals and uses different data but there are many shared elements like APIs and map generation.</p>
