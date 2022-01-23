@@ -2,13 +2,9 @@
 <h3>Joshua Neronha, January 2021</h3>
 <br>
 <center>
-<div class="row">
-  <div class="column">
-    <img src="render/display.webp" height = 100></img>
-  </div>
-  <div class="column">
-    <img src="render/display_beta.webp" height = 100></img>
-  </div>
+<div>
+<img src="render/display.webp" height = 100/>
+<img src="render/display_beta.webp" height = 100/>
 </div>
 </center>
 <h2>Purpose</h2>
