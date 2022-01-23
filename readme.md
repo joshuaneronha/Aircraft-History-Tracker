@@ -24,7 +24,7 @@
 <br>
 <p>I'm very happy with how this project turned out! Now that it's setup, tracking my prior aircraft is extremely easy and requires no work but is always visible. The only maintenance, really, is periodically updating my flights from FlightRadar24 so the Tidbyt has the most up-to-date list of my aircraft history.</p>
 <p>The main challenge was not the data gathering but rather figuring out how to best display the most information with very limited screen real estate (the Tidbyt is only 64 x 32 pixels!) However, after a lot of trial and error, I think everything came together nicely to produce a visually attractive and informative display of my aircraft history. I also got some experience working with some hardware compared to a solely software project, which was a great experience!</p>
-<p>If you have a Tidbyt, I'd love to see you implement this fo your own flights! It should be pretty easy, as long as you have some computer or server constantly running and a basic knowledge of Python / Linux. Let me know how it goes!</p>
+<p>If you have a Tidbyt, I'd love to see you implement this fo your own flights! It should be pretty easy, as long as you have some computer or server constantly running and a basic knowledge of Python / Linux. You will definitely have to make some changes for your own setup, though. Let me know how it goes!</p>
 
 <h2>Acknowledgments and Attribution</h2>
-<p>A special thanks to AirLabs, which upgraded my API quota after learning about this project! I release this project and all associated code into the public domain, and it may be used unrestricted as long as attribution is provided to this author and this project.
+<p>A special thanks to AirLabs, which upgraded my API quota after learning about this project! Feel free to modify or reuse my project as you wish.</p>
